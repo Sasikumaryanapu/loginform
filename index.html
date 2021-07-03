@@ -1,0 +1,45 @@
+<DOCTYPE html>
+<html>
+<head>
+
+
+<meta charset="UTF-8" />
+<meta name="sasi" content="about coding"/>
+<meta author="sasi" content="about coding"/>
+<meta description="coding" content="about coding"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title> log  </title>
+  <link type="text/css" rel="stylesheet"  href="loginjs.css">
+</head>
+<body>
+
+ <script>
+   function sum()
+ {
+  var a = document.getElementById("pwd").value;
+  var s= /sasi/;
+  if(a.match(s))
+  {
+    true;
+  }
+  else
+  {
+    alert("sorry wrong password" +a);
+   return false;
+    
+   }
+ 
+  }
+
+ </script>
+
+   <form id="fm" onsubmit="return sum()" action="codecop.html">
+	
+	<input type="text" id="fname" placeholder="enter your name"/><br>
+	<input type="password" id="pwd" placeholder="enter password"/><br>
+	<input id="sub" type="submit" />
+  </form>
+
+</body>
+</html>
